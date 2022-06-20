@@ -24,7 +24,7 @@ const LoginScreen = () => {
       .createUserWithEmailAndPassword(email, password)
       .then(userCredentials => {
         const user = userCredentials.user;
-        console.log('Registered with:', user.email);
+        console.log('Registrado como:', user.email);
       })
       .catch(error => alert(error.message))
   }
@@ -34,7 +34,7 @@ const LoginScreen = () => {
       .signInWithEmailAndPassword(email, password)
       .then(userCredentials => {
         const user = userCredentials.user;
-        console.log('Logged in with:', user.email);
+        console.log('Logado como:', user.email);
       })
       .catch(error => alert(error.message))
   }
@@ -71,7 +71,7 @@ const LoginScreen = () => {
           onPress={handleSignUp}
           style={[styles.button, styles.buttonOutline]}
         >
-          <Text style={styles.buttonOutlineText}>Register</Text>
+          <Text style={styles.buttonOutlineText}>Registrar</Text>
         </TouchableOpacity>
       </View>
     </KeyboardAvoidingView>

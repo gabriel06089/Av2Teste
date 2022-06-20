@@ -6,22 +6,22 @@ import Bolos from './bolos'
 export default function Footer() {
   return (
     <View>
-        <Text style={styles.title}>footer</Text>
+        <Text style={styles.title}>Outros serviços</Text>
        <View style ={{flexDirection: 'row'}}>
         <ScrollView horizontal showsHorizontalScrollIndicator={false}>
                 <View style={{marginHorizontal: 10}}>
-                    <Bolos img={require('../screens/assets/1.png')} cost="110,90">
-                        Bolo fofo
+                    <Bolos img={require('../screens/assets/1.1.png')} cost="De uma a 3 horas">
+                        Troca de pneus
                     </Bolos>
                 </View>
                 <View style={{marginHorizontal: 10}}>
-                    <Bolos img={require('../screens/assets/2.png')} cost="680,90">
-                        Bolo de fuba
+                    <Bolos img={require('../screens/assets/2.png')} cost="De um a 5 dias">
+                        Revisão completa
                     </Bolos>
                 </View>
                 <View style={{marginHorizontal: 10}}>
-                    <Bolos img={require('../screens/assets/3.png')} cost="510,90">
-                        Bolo formigueiro
+                    <Bolos img={require('../screens/assets/3.png')} cost="De um a 3 dias">
+                        Revisão em motos
                     </Bolos>
                 </View>
         </ScrollView>

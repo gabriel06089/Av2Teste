@@ -37,9 +37,10 @@ const HomeScreen = () => {
           </Text>
           <TouchableOpacity
             style={{ position: "absolute", right: 0, alignSelf: "center" }}
+            onPress={handleSignOut}
           >
             <MaterialIcons
-              name="filter-list"
+              name="logout"
               size={24}
               color="#000"
             ></MaterialIcons>
@@ -53,14 +54,14 @@ const HomeScreen = () => {
 
         <View style={{ flexDirection: "row", justifyContent: "space-around" }}>
           <Bolos
-            img={require("./assets/1.png")}
+            img={require("./assets/1.1.png")}
             cost="De 1 a 3 horas"
             onClick={() => navigation.navigate("Detail1")}
           >
             Troca de pneus
           </Bolos>
           <Bolos
-            img={require("./assets/2.png")}
+            img={require("./assets/2.2.png")}
             cost="De 1 a 5 dias"
             onClick={() => navigation.navigate("Detail")}
           >
@@ -69,7 +70,7 @@ const HomeScreen = () => {
         </View>
         <View style={{ flexDirection: "row", justifyContent: "space-around" }}>
           <Bolos
-            img={require("./assets/3.png")}
+            img={require("./assets/3.3.png")}
             cost="De 1 a 3 dias"
             onClick={() => navigation.navigate("Detail2")}
           >
@@ -77,7 +78,7 @@ const HomeScreen = () => {
           </Bolos>
 
           <Bolos
-            img={require("./assets/4.png")}
+            img={require("./assets/4.4.png")}
             cost="De 5 a 10 dias"
             onClick={() => navigation.navigate("Detail3")}
           >
