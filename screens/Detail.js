@@ -37,8 +37,14 @@ export default function Detail({ navigation }) {
         </View>
 
         <View style={styles.dotContainer}>
-          <Dot color="#2379f4" />
-          <Dot color="#fb6e53" />
+          <Dot color="#ddd" />
+          <Dot color="#000" />
+          <Dot color="#ddd" />
+          <Dot color="#000" />
+          <Dot color="#ddd" />
+          <Dot color="#000" />
+          <Dot color="#ddd" />
+          <Dot color="#000" />
           <Dot color="#ddd" />
           <Dot color="#000" />
         </View>

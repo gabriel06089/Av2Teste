@@ -4,7 +4,7 @@ import React from 'react'
 export default function Ingredientes(props) {
   return (
     <View style={[styles.container,{backgroundColor: props.bgColor || '#fff'}]}>
-      <Text style={[styles.text, {color: props.color || '#c9c'}]}>{props.children}</Text>
+      <Text style={[styles.text, {color: props.color || '#000'}]}>{props.children}</Text>
     </View>
   )
 }
