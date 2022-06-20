@@ -76,7 +76,7 @@ export default function Detail({ navigation }) {
             tudo, é importante que você saiba que manter a manutenção em dia
             evita problemas mecânicos e elétricos. Além disso, com o carro
             sempre revisado, seu desgaste diminui, o que facilita bastante na
-            hora da venda, e também te ajuda a economizar mais tarde.e</Text>
+            hora da venda, e também te ajuda a economizar mais tarde.</Text>
           <Text style={styles.textList}>Checamos todo o sistema de arrefecimento, assim como todos os liquidos a serem repostos como oleo e freio, checamos suas embreagem e filtro de ar, correia dentada, velas e Radiador</Text>
           <Text style={styles.textList}>Fazemos toda a verificação no sistema de freios e de suspensao</Text>
         </View>
