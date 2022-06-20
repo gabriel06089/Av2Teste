@@ -15,7 +15,7 @@ import Button from "../components/button";
 
 export default function Detail3({ navigation }) {
   navigation.setOptions({
-    headerTitle: "Revisao Automotiva",
+    headerTitle: "Pintura Automotiva",
   });
 
   return (
