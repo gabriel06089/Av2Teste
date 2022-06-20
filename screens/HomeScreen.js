@@ -1,6 +1,13 @@
 import React from "react";
 import Bolos from "../components/bolos";
 import { useNavigation } from "@react-navigation/native";
+import AppLoading from "expo-app-loading";
+import {
+  useFonts,
+  Poppins_400Regular,
+  Poppins_500Medium,
+  Poppins_700Bold,
+} from "@expo-google-fonts/poppins";
 
 import {
   StyleSheet,
@@ -14,6 +21,7 @@ import { MaterialIcons } from "@expo/vector-icons";
 import { auth } from "../firebase";
 
 const HomeScreen = () => {
+  
   const navigation = useNavigation();
 
   const handleSignOut = () => {
@@ -50,7 +58,7 @@ const HomeScreen = () => {
       <View style={styles.line} />
 
       <ScrollView>
-        <Text style={styles.text}>Lançamentos</Text>
+        <Text style={styles.text}>Serviços</Text>
 
         <View style={{ flexDirection: "row", justifyContent: "space-around" }}>
           <Bolos

@@ -13,13 +13,13 @@ import { Feather } from "@expo/vector-icons";
 import Detail1 from "./screens/Detail1";
 import Detail2 from "./screens/Detail2";
 import Detail3 from "./screens/Detail3";
+
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        
         <Stack.Screen
           options={{ headerShown: false }}
           name="Login"
